@@ -4,12 +4,15 @@
     <meta charset="utf-8">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Hubspot</title>
   </head>
   <body>
-    <!-- inizio header -->
+<!-- inizio header -->
     <header>
+
+<!-- nav superiore, manca la lente d'ingrandimento e il position fixed -->
       <nav>
         <div class="top-nav">
           <div class="left-nav">
@@ -17,11 +20,12 @@
             <a href="#">Contact Us</a>
           </div>
           <div class="right-nav">
-          <a class="btn-login" href="#">Log In</a>
-          <a class="btn-orange" href="#">GetHubSpotFree</a>
+            <a class="btn-login" href="#">Log In</a>
+            <a class="btn-orange" href="#">GetHubSpotFree</a>
           </div>
-
         </div>
+
+<!-- nav inferiore -->
 
         <div class="bottom-nav">
           <div class="logo">
@@ -36,9 +40,10 @@
           </div>
         </div>
       </nav>
+<!-- fine nav -->
 
+<!-- inizio banner -->
       <div class="banner">
-
         <div class="banner-text">
           <h1>There's a better way to grow.</h1>
           <p>Marketing, sales, and service software that help your business grow without compromise. Because "good for the business" should also mean "good for the customer".</p>
@@ -55,24 +60,110 @@
 
 <!-- inizio main -->
     <main>
-      <section class="products">
-        <div class="products-background">
-          <div class="cubo">
-            <img src="img/cubo.png" alt="">
+      <section class="products clearfix">
+        <div class="cubo">
+          <img src="img/cubo.png" alt="">
+        </div>
+        <div class="products-text">
+          <h1>Powerful alone. Better together.</h1>
+          <p>HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They’re powerful alone — but even better when used together.</p>
+        </div>
+        <div class="products-row clearfix">
+          <div class="row-left">
+              <img src="img/product-1.svg" alt="">
+            <div class="btn-learn">
+              <a class="btn-orange btn-learn" href="#">Learn More</a>
+            </div>
           </div>
-          <div class="products-text">
-            <h1>Powerful alone. Better together.</h1>
-            <p>HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They’re powerful alone — but even better when used together.</p>
+          <div class="row-right">
+            <h2>Free HubSpot CRM</h2>
+            <p>Everything you need to organize, track, and build better relationships with leads and customers. Yes, it's 100% free. Forever.</p>
           </div>
+          <div class="row-feature">
+            <p class="feature">popolar feature</p>
+              <ul>
+                <li><i class="fas fa-check-circle"></i>Contact Insight</li>
+                <li><i class="fas fa-check-circle"></i>Deals</li>
+                <li><i class="fas fa-check-circle"></i>Task</li>
+              </ul>
+          </div>
+        </div>
 
-          <div class="row">
-
+<!-- colonna sinistra -->
+        <div class="col-left">
+          <div class="img-col">
+            <img src="img/product-col1.svg" alt="">
           </div>
-          
+          <div class="text-col">
+            <h2>Marketing Hub</h2>
+            <p>  Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
+            <hr class="col-hr">
+          </div>
+          <div class="col-feature">
+            <p class="feature">popolar feature</p>
+            <ul>
+              <li><i class="fas fa-check-circle"></i>Lead Generation</li>
+              <li><i class="fas fa-check-circle"></i>Marketing Automation</li>
+              <li><i class="fas fa-check-circle"></i>Analytics</li>
+            </ul>
+          </div>
+          <div class="btn-learn">
+            <a class="btn-orange btn-learn" href="#">Learn More</a>
+          </div>
+        </div>
+<!-- colonna centrale -->
+        <div class="col-middle">
+          <div class="img-col">
+            <img src="img/product-col2.svg" alt="">
+          </div>
+          <div class="text-col">
+            <h2>Sales Hub</h2>
+            <p>Time-saving sales software that helps you get deeper insights into prospects, automate the tasks you hate, and close more deals faster.</p>
+            <hr class="col-hr">
+          </div>
+          <div class="col-feature">
+            <p class="feature">popolar feature</p>
+            <ul>
+              <li><i class="fas fa-check-circle"></i>Email Tracking</li>
+              <li><i class="fas fa-check-circle"></i>Meeting Scheduling</li>
+              <li><i class="fas fa-check-circle"></i>Email Automation</li>
+            </ul>
+          </div>
+          <div class="btn-learn">
+            <a class="btn-orange btn-learn" href="#">Learn More</a>
+          </div>
+        </div>
+<!-- colonna destra -->
+        <div class="col-right">
+          <div class="img-col">
+            <img src="img/product-col3.svg" alt="">
+          </div>
+          <div class="text-col">
+            <h2>Service Hub</h2>
+            <p>Customer service software to help you connect with customers, exceed expectations, and turn them into promoters that grow your business..</p>
+            <hr class="col-hr">
+          </div>
+          <div class="col-feature">
+            <p class="feature">popolar feature</p>
+            <ul>
+              <li><i class="fas fa-check-circle"></i>Tickets</li>
+              <li><i class="fas fa-check-circle"></i>Customer Feedback</li>
+              <li><i class="fas fa-check-circle"></i>Knowledge Base</li>
+            </ul>
+          </div>
+          <div class="btn-learn">
+            <a class="btn-orange btn-learn" href="#">Learn More</a>
+          </div>
         </div>
       </section>
 
-      <section class="community">
+<!-- sezione Learn e grow -->
+      <section class="learn-grow">
+        <div class="learn-background">
+          <h2>Learn and grow with award-winning support and a thriving community behind you.</h2>
+          <p>You don't have to go it alone. Master the inbound methodology and get the most out of your tools with HubSpot's legendary customer support team and a community of thousands of marketing and sales pros just like you.</p>
+        </div>
+
 
       </section>
 

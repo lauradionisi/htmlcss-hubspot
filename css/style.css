@@ -18,6 +18,7 @@ header {
   width: 100%;
 }
 
+/* nav superiore */
 .top-nav {
   position: relative;
   padding: 40px;
@@ -31,6 +32,7 @@ header {
   left:2%;
   transform: translateY(-50%);
 }
+
 .left-nav a {
   color: black;
   padding: 14px;
@@ -44,6 +46,7 @@ header {
   right: 2%;
   transform: translateY(-50%);
 }
+
 a.btn-login {
   color: #fe775a;
   border: 1px solid #fe775a;
@@ -60,6 +63,8 @@ a.btn-login {
   text-decoration: none;
   color: white;
 }
+
+/* nav inferiore */
 
 .bottom-nav {
   position: relative;
@@ -91,6 +96,7 @@ a {
   padding-left: 15px;
 }
 
+/* inizio banner */
 .banner {
   background-image: url(../img/jumbotron.png);
   background-size: contain;
@@ -113,6 +119,7 @@ a {
 .banner-text p {
   margin-top: 15px;
 }
+
 .button-banner {
   position: absolute;
   top: 40%;
@@ -137,13 +144,16 @@ main {
   height: auto;
   margin: 0 auto;
 }
+
 div.cubo {
   text-align: center;
 }
- .cubo img {
+
+.cubo img {
    max-width: 300px;
    margin-top: 40px;
- }
+}
+
 div.products-text {
 text-align: center;
 font-size: 25px;
@@ -155,8 +165,122 @@ line-height: 150%;
   margin-top: 20px;
 }
 
-.row {
+.products-row {
   background-color: white;
-  height: 100px;
-  border: 1px solid #33475b;
+  margin-top: 40px;
+  padding: 50px;
+  box-shadow: -1px 2px 6px 3px #b3aaae;
+}
+
+.row-left {
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+.row-left img {
+  width: 150px;
+}
+
+ div.btn-learn {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.row-right {
+float: left;
+width: 60%;
+}
+
+.row-right h2,
+.row-right p {
+  color: #33475b;
+  line-height: 200%;
+}
+
+.feature {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #33475b;
+}
+.feature p {
+  float: left;
+  margin-top: 20px;
+}
+
+i {
+  color: #fe775a;
+}
+
+.row-feature {
+  float: left;
+}
+.row-feature ul,
+.col-feature ul {
+  list-style: none;
+  margin-top: 20px;
+  color: #33475b;
+}
+
+/* colonne */
+.col-left,.col-middle,.col-right{
+  width: 32%;
+  height: 650px;
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 50px;
+  background-color: white;
+  box-shadow: -1px 2px 6px 3px #b3aaae;
+}
+.col-middle {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.img-col {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.text-col {
+  text-align: center;
+  margin-top: 20px;
+  color: #33475b;
+}
+.text-col p {
+  line-height: 200%;
+  margin-top: 20px;
+}
+
+hr.col-hr {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: grey;
+}
+
+.col-feature {
+  width: 80%;
+  margin:0 auto;
+}
+.col-feature p {
+  text-align: center;
+}
+
+/* sezione learn e grow */
+.learn-background {
+  height: 600px;
+  background-image: linear-gradient(to right, #00a4bc, #00bba7);
+}
+div.learn-background {
+text-align: center;
+padding: 80px 120px 80px 120px;
+font-size: 25px;
+color: white;
+line-height: 150%;
+}
+
+.learn-background p {
+  margin-top: 40px;
 }
