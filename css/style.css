@@ -40,6 +40,14 @@ header {
   font-size: 17px;
 }
 
+.select i {
+  color: black;
+  margin-right: 10px;
+}
+.right-nav i {
+  color: #00a4bd;
+  margin-right: 10px;
+}
 .right-nav {
   position: absolute;
   top: 50%;
@@ -270,7 +278,7 @@ hr.col-hr {
 
 /* sezione learn e grow */
 .learn-background {
-  height: 600px;
+  height: auto;
   background-image: linear-gradient(to right, #00a4bc, #00bba7);
 }
 div.learn-background {
@@ -283,4 +291,177 @@ line-height: 150%;
 
 .learn-background p {
   margin-top: 40px;
+}
+
+.box-container {
+  width: 80%;
+  margin: 0 auto;
+  height: 380px;
+  margin-top: 40px;
+
+}
+
+.box {
+  float: left;
+  height: 190px;
+  width: 25%;
+  border: 1px solid white;
+  border-top: none;
+}
+.box h2 {
+  margin-top: 20px;
+}
+.box p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+img.box-logo {
+  padding-top: 15px;
+}
+
+.box-1,.box-4,.box-5,.box-8 {
+  border-left: none;
+  border-right: none;
+}
+.box-5,.box-6,.box-7,.box-8 {
+border-bottom: none;
+}
+.box-2,.box-6 {
+  border-right: none;
+}
+
+/* sezione brand e customers */
+.brand-container,
+.get-started {
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 120px 60px 120px;
+}
+
+.col-brand-1 {
+  float: left;
+  margin-left: 20px;
+  width: 25%;
+  color: #33475b;
+}
+.col-brand-1 h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.col-brand-1 p {
+  font-size: 15px;
+  line-height: 200%;
+}
+
+.col-brand-2 {
+  float: right;
+  width: 60%;
+}
+.brand-logo {
+  float: left;
+  width: 20%;
+  margin: 10px;
+}
+
+.col-get-started {
+  float: left;
+  width: 50%;
+  color: #33475b;
+}
+.col-get-started h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.col-get-started p {
+  font-size: 15px;
+  line-height: 200%;
+}
+
+.button-start {
+  float: left;
+  margin-top: 30px;
+}
+
+.free-tools {
+  float: left;
+  margin-top: 30px;
+  font-size: 11px;
+}
+
+.woman img {
+  float: right;
+  width: 30%;
+}
+
+/* footer */
+footer {
+  width: 100%:auto;
+  background-color: #32495b;
+}
+
+.footer-container {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.list {
+  display: inline-block;
+  text-align: left;
+  width: 20%;
+  margin: 40px;
+}
+.list ul,
+.list h3 {
+  list-style: none;
+  line-height: 300%;
+  color: white;
+}
+
+.btn-grey {
+  float: left;
+  border: 1px solid transparent;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: #dadee0;
+  text-decoration: none;
+  color: #32495b;
+}
+
+.icone {
+  float: left;
+  margin-top: 20px;
+}
+i.grey {
+  color: #dadee0;
+}
+
+.footer-bottom ul,
+.footer-bottom li {
+  display: inline-block;
+  list-style: none;
+  color: #dadee0;
+  padding: 20px;
+}
+
+.copyright-logo {
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+.copyright p {
+  display: inline-block;
+}
+
+.policy ul,
+.policy li {
+  float: right;
+  display: inline-block;
+  list-style: none;
+  color: #dadee0;
+  padding: 20px;
 }
